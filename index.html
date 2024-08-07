@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys Webpage</title>
+    <!-- Tailwind and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/9e4c7fdccf.js" crossorigin="anonymous"></script>
+
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+        }
+
+        * {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container mx-auto mt-12 mb-12">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Home</a></li>
+                        <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">About</a></li>
+                        <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Pages</a></li>
+                        <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Blog</a></li>
+                        <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost md:text-4xl text-2xl manrope-font font-extrabold">Hockey<span
+                        class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Home</a></li>
+                    <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">About</a></li>
+                    <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Pages</a></li>
+                    <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Blog</a></li>
+                    <li><a class="manrope-font hover:text-[#FF4240] text-[#424247]">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="mr-6 text-[#424247] hover:bg-slate-200 btn bg-transparent hidden md:flex"><i
+                        class="fa-solid fa-magnifying-glass"></i></a>
+                <a
+                    class="rounded-lg hover:bg-slate-200 hover:cursor-pointer bg-[#FF4240] text-white md:px-6 md:py-3 px-4 py-2 text-xl font-bold">Get
+                    Ticket</a>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto">
+        <!-- banner div -->
+        <div class="px-5">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full" />
+                    <div
+                        class="absolute left-5 right-5 top-[90%] flex -translate-y-1/2 md:justify-start justify-center transform gap-4">
+                        <a href="#slide4" class="btn btn-circle text-white bg-[#131318]">❮</a>
+                        <a href="#slide2" class="btn btn-circle text-white bg-[#131318]">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full" />
+                    <div
+                        class="absolute left-5 right-5 top-[90%] flex   md:justify-start justify-center  -translate-y-1/2 transform gap-4">
+                        <a href="#slide4" class="btn btn-circle text-white bg-[#131318]">❮</a>
+                        <a href="#slide2" class="btn btn-circle text-white bg-[#131318]">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full" />
+                    <div
+                        class="absolute left-5 right-5 top-[90%] flex  md:justify-start justify-center  -translate-y-1/2 transform gap-4">
+                        <a href="#slide4" class="btn btn-circle text-white bg-[#131318]">❮</a>
+                        <a href="#slide2" class="btn btn-circle text-white bg-[#131318]">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full" />
+                    <div
+                        class="absolute left-5 right-5 top-[90%] flex  md:justify-start justify-center  -translate-y-1/2 transform gap-4">
+                        <a href="#slide4" class="btn btn-circle text-white bg-[#131318]">❮</a>
+                        <a href="#slide2" class="btn btn-circle text-white bg-[#131318]">❯</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="md:mt-0 mt-4 p-8 bg-[#131318] rounded-2xl w-full md:w-2/5 text-white md:relative md:bottom-[200px] md:left-[880px]">
+                <h1 class="mb-4 text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                <p class="font-medium text-[#ffffff99]">Stay Updated with the Latest Hockey News, Scores, and Highlights
+                    from Around the World</p>
+            </div>
+        </div>
+        <!-- percentage section -->
+        <section>
+            <div class="text-center mb-20">
+                <h1 class="text-4xl font-extrabold text-[#131318] mb-6">Professional Hockeys Club</h1>
+                <p class="font-medium text-[#13131899] leading-6">Join the elite community of hockey enthusiasts for
+                    exclusive updates, insider tips, and in-depth <br> coverage of professional hockey.</p>
+            </div>
+            <div class="flex justify-around">
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#ff4240]" style="--value:87;" role="progressbar">
+                        <div class="text-black font-extrabold text-[#131318]">87%</div>
+                    </div>
+                    <h1 class="text-xl font-semibold text-[#131318]">Prayer Facility</h1>
+                    <p class="text-[#13131899]">A tranquil space for reflection and prayer.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#49d293]" style="--value:95;" role="progressbar">
+                        <div class="text-black font-extrabold text-[#131318]">95%</div>
+                    </div>
+                    <h1 class="text-xl font-semibold text-[#131318]">Experienced Coach</h1>
+                    <p class="text-[#13131899]">Top-tier coaching from industry experts.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#ffb546]" style="--value:90;" role="progressbar">
+                        <div class="text-black font-extrabold text-[#131318]">90%</div>
+                    </div>
+                    <h1 class="text-xl font-semibold text-[#131318]">Senior Player</h1>
+                    <p class="text-[#13131899]">Veteran players offering mentorship.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#4c8df1]" style="--value:80;" role="progressbar">
+                        <div class="text-black font-extrabold text-[#131318]">80%</div>
+                    </div>
+                    <h1 class="text-xl font-semibold text-[#131318]">Training Ground</h1>
+                    <p class="text-[#13131899]">Modern facilities for peak training.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
